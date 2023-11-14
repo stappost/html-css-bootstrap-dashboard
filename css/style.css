@@ -35,6 +35,8 @@ header .d-flex{
     background-color: #fff;
     height: 50px;
 }
+/* MAIN  */
+
 /* CONTENT  */
 .content{
     height: calc(100vh - 150px);

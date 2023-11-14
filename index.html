@@ -34,6 +34,7 @@
         <!-- MAIN  -->
         <main>
             <div id="container_main">
+                <!-- SIDEBAR  -->
                 <div class="sidebar">
                         <!-- ICONS  -->
                     <div class="d-flex flex-column text-white justify-content-between align-items-center h-100 py-5">
@@ -58,17 +59,43 @@
                     </div>
                 </div> 
                 <div id="main-content">
-                    <div class="bg_blue">
+                    <!-- MAIN BG BLUE  -->
+                    <div class="bg_blue pt-4">
                         <div class="container-fluid">
                             <div class="row justify-content-start">
-                                <div class="col-12 col-md-4">
-                                    <div class="content-blue border"></div>
+                                <div class="col-12 col-md-3 order-md-1">
+                                    <div class="text-white mb-4">
+                                        <div>
+                                            Nuovo Studente
+                                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                                Link with href
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <div class="text-white mb-4">
+                                        <div>
+                                            <span class="fs-2">
+                                                Boolean
+                                            </span>
+                                            <span class="badge text-bg-primary">Primary</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge text-bg-primary">Primary</span>
+                                            >>
+                                            <span class="badge text-bg-primary d-lg-none">Primary</span>
+                                            <span class="badge text-bg-primary d-lg-inline d-none">Primary</span>
+                                            <span class="badge text-bg-primary d-lg-inline d-none">Primary</span>
+                                            <span class="badge text-bg-primary d-lg-inline d-none">Primary</span>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-12 col-md-4">
-                                    <div class="content-blue border"></div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="content-blue border order-md-1"></div>
+                                    <div class="text-white mb-3">
+                                        <div>Studenti online negli ultimi 30 minuti</div>
+                                        <div class="fs-3 py-2">125</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
