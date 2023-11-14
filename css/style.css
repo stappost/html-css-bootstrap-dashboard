@@ -6,26 +6,15 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* MAIN BLOCKS  */
 header{
-    background-color: brown;
     height: 75px;
+    padding-top: 10px;
 }
 .sidebar{
     background-color: rgb(16, 16, 62);
     height: calc(100vh - 75px);
     width: 100px;
-}
-.content{
-    height: calc(100vh - 150px);
-    background-color: blueviolet;
-}
-.bg_grey{
-    background-color: gray;
-}
-
-.content-blue{
-    height: 70px;
-    background-color: rgb(43, 46, 226);
 }
 #main-content{
     width: calc(100vw - 100px);
@@ -35,9 +24,35 @@ header{
 #container_main{
     display: flex;
 }
+/* HEADER  */
+
+.logo-mobile{
+    height: 50px;
+    margin: 10px 0;
+}
+
+header .d-flex{
+    background-color: #fff;
+    height: 50px;
+}
+/* CONTENT  */
+.content{
+    height: calc(100vh - 150px);
+    background-color: blueviolet;
+}
+.content-blue{
+    height: 70px;
+    background-color: rgb(43, 46, 226);
+}
+/* BG AND COLORS  */
+.bg_grey{
+    background-color: rgb(227, 227, 227);
+}
+
 .bg_blue{
     background-color: rgb(60, 60, 205);
 }
+/* MEDIA QUERY  */
 @media screen and (min-width: 992px) {
     .sidebar{
         width: 200px
