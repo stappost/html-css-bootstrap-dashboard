@@ -38,3 +38,11 @@ header{
 .bg_blue{
     background-color: rgb(60, 60, 205);
 }
+@media screen and (min-width: 992px) {
+    .sidebar{
+        width: 200px
+    }
+    #main-content{
+        width: calc(100vw - 200px);
+    }
+}
