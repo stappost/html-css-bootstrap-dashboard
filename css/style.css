@@ -38,10 +38,7 @@ header .d-flex{
 /* MAIN  */
 
 /* CONTENT  */
-.content{
-    height: calc(100vh - 150px);
-    background-color: blueviolet;
-}
+
 .content-blue{
     height: 70px;
     background-color: rgb(43, 46, 226);
@@ -49,6 +46,9 @@ header .d-flex{
 /* BG AND COLORS  */
 .bg_grey{
     background-color: rgb(227, 227, 227);
+}
+.bg_white{
+    background-color: #fff;
 }
 
 .bg_blue{
