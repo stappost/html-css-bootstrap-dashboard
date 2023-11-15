@@ -34,20 +34,48 @@ header{
 
 header .d-flex{
     background-color: #fff;
-    height: 50px;
+    height: 35px;
 }
 /* MAIN  */
+table tr td:first-child::before{
+    content: "";
+    background-size: cover;
+    background-image: url(../img/class-avatar.jpg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 
+}
+table tr td:first-child{
+    padding-left: 50px;
+    position: relative;
+}
+table tr td:not(:first-child){
+    text-align: center;
+}
 /* BG AND COLORS  */
 .bg_grey{
     background-color: rgb(227, 227, 227);
+}
+.bg_lightgrey{
+    background-color: #F8F9FA;
 }
 .bg_white{
     background-color: #fff;
 }
 
 .bg_blue{
-    background-color: rgb(60, 60, 205);
+    background-color: #1B72E8;
+}
+.bg_darkblue{
+    background-color: #165BBA;
+}
+
+/* OFFCANVAS  */
+.offcanvas.offcanvas-end{
+    width: 100vw;
 }
 /* MEDIA QUERY  */
 @media screen and (min-width: 992px) {
@@ -56,5 +84,8 @@ header .d-flex{
     }
     #main-content{
         width: calc(100vw - 200px);
+    }
+    .offcanvas.offcanvas-end{
+        width: 50vw;
     }
 }
