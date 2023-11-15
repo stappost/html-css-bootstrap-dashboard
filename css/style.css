@@ -16,10 +16,10 @@ header{
     height: calc(100vh - 75px);
     width: 100px;
     background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
 }
 #main-content{
     width: calc(100vw - 100px);
-    background-color: gray;
     height: calc(100vh - 75px);
 }
 #container_main{
