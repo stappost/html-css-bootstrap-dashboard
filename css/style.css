@@ -34,7 +34,7 @@ header{
 
 header .d-flex{
     background-color: #fff;
-    height: 35px;
+    height: 50px;
 }
 /* SIDEBAR  */
 .sidebar ul.d-lg-block a{
@@ -97,5 +97,8 @@ table tr td:not(:first-child){
     }
     .offcanvas.offcanvas-end{
         width: 50vw;
+    }
+    header .d-flex{
+        height: 35px;
     }
 }
