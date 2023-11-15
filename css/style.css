@@ -36,6 +36,13 @@ header .d-flex{
     background-color: #fff;
     height: 35px;
 }
+/* SIDEBAR  */
+.sidebar ul.d-lg-block a{
+    text-decoration: none;
+}
+.sidebar ul.d-lg-block li:hover{
+    background-color: #a8a6a6;
+}
 /* MAIN  */
 table tr td:first-child::before{
     content: "";
@@ -76,6 +83,9 @@ table tr td:not(:first-child){
 /* OFFCANVAS  */
 .offcanvas.offcanvas-end{
     width: 100vw;
+}
+.lh_20{
+    line-height: 20px;
 }
 /* MEDIA QUERY  */
 @media screen and (min-width: 992px) {
